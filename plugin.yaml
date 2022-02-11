@@ -4,3 +4,17 @@ plugin:
     author: Frukt
     icon: oc-icon-youtube
     homepage: ''
+navigation:
+    main-menu-item:
+        label: YT
+        url: /
+        icon: icon-youtube
+        sideMenu:
+            side-menu-item:
+                label: Видео
+                url: frukt/yt/ytvideos
+                icon: icon-youtube-play
+            side-menu-item2:
+                label: Настройки
+                url: /system/settings/update/frukt/yt/settings
+                icon: icon-cogs

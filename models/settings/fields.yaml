@@ -1,0 +1,14 @@
+fields:
+    yt_api_key:
+        label: YouTube API Key
+        span: auto
+        type: text
+    yt_channel_id:
+        label: YouTube Channel Id
+        span: auto
+        type: text
+    yt_quantity:
+        label: Количество видосов для загрузки
+        span: auto
+        type: number
+        default: 20

@@ -3,7 +3,4 @@
     "type": "october-plugin",
     "description": "A simple YT connector.",
     "license": "proprietary",
-    "require": {
-        "google/apiclient": "^2.0"
-    }
 }

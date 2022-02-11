@@ -1,0 +1,25 @@
+fields:
+    etag:
+        label: Etag
+        span: auto
+        type: text
+    youtube_id:
+        label: 'Youtube id'
+        span: auto
+        type: text
+    title:
+        label: Title
+        span: auto
+        type: text
+    desc:
+        label: Desc
+        span: auto
+        type: text
+    published_at:
+        label: 'Published at'
+        span: auto
+        type: datepicker
+    is_active:
+        label: 'Is active'
+        span: auto
+        type: switch

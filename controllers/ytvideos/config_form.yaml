@@ -1,0 +1,10 @@
+name: YTVideos
+form: $/frukt/yt/models/ytvideo/fields.yaml
+modelClass: Frukt\Yt\Models\YTVideo
+defaultRedirect: frukt/yt/ytvideos
+create:
+    redirect: 'frukt/yt/ytvideos/update/:id'
+    redirectClose: frukt/yt/ytvideos
+update:
+    redirect: frukt/yt/ytvideos
+    redirectClose: frukt/yt/ytvideos

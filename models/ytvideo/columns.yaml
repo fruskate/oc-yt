@@ -1,0 +1,25 @@
+columns:
+    etag:
+        label: etag
+        type: text
+    youtube_id:
+        label: youtube_id
+        type: text
+    title:
+        label: title
+        type: text
+    desc:
+        label: desc
+        type: text
+    published_at:
+        label: published_at
+        type: datetime
+    is_active:
+        label: is_active
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
