@@ -1,0 +1,6 @@
+plugin:
+    name: 'frukt.yt::lang.plugin.name'
+    description: 'frukt.yt::lang.plugin.description'
+    author: Frukt
+    icon: oc-icon-youtube
+    homepage: ''
