@@ -1,4 +1,18 @@
-# oc-yt
-YouTube plugin for OctoberCMS
+# Frukt.Yt
 
-Test...
+Плагин для отображения последних видео с твоего YouTube канала.
+
+## Системные требования
+
+Для работы необходимо:
+
+* api-key YouTube API.
+* Код вашего канала
+* OctoberCMS v.2.0.30 и выше
+
+## Установка
+
+Для установки необходимо выполнить команду `php artisan plugin:install frukt.yt`.
+
+Не забудьте в настройках плагина указать api-key YouTube и код вашего канала.
+
