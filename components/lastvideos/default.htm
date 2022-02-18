@@ -1,3 +1,12 @@
-<p>This is the default markup for component lastVideos</p>
-
-<small>You can delete this file if you want</small>
+<div class="heading-1 mt-3">Последние видео</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for item in __SELF__.videos %}
+        <div class="col">
+            <div class="card">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/{{ item.youtube_id }}" title="{{ item.title }}" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

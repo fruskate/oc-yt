@@ -28,4 +28,14 @@ class Plugin extends PluginBase
             ]
         ];
     }
+
+    public function register()
+    {
+        $this->registerConsoleCommand('youtube.getvideos', 'Frukt\Yt\Console\GetVideos');
+    }
+
+    public function registerSchedule($schedule)
+    {
+        $schedule->command('youtube:getvideos')->hourly();
+    }
 }

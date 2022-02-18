@@ -12,3 +12,8 @@ fields:
         span: auto
         type: number
         default: 20
+    yt_front_quantity:
+        label: Количество видео для отображения на фронте
+        span: auto
+        type: number
+        default: 3

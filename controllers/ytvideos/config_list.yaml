@@ -10,3 +10,6 @@ toolbar:
     search:
         prompt: 'backend::lang.list.search_prompt'
 recordUrl: 'frukt/yt/ytvideos/update/:id'
+defaultSort:
+    column: published_at
+    direction: desc

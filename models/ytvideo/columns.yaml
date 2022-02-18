@@ -1,4 +1,8 @@
 columns:
+    image:
+        label: ИЗОБРАЖЕНИЕ
+        type: image
+        sortable: false
     etag:
         label: etag
         type: text

@@ -23,3 +23,12 @@ fields:
         label: 'Is active'
         span: auto
         type: switch
+    image:
+        label: ИЗОБРАЖЕНИЕ
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
